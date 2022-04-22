@@ -6,6 +6,7 @@ const skillsList: string[] = [
     'TypeScript',
     'Python',
     'C#',
+    '.NET Core',
     'AWS',
     'Docker',
     'Kubernetes',

@@ -26,13 +26,13 @@ const Layout: React.FC<LayoutProps> = (props: LayoutProps) => {
 							Home
 						</Link>
 					</li>
-					<li className={navLinks}>
-						<Link to="/about" className={navLinkItem}>
+					<li className={navLinkItem}>
+						<Link to="/about" className={navLinkText}>
 							About
 						</Link>
 					</li>
-					<li className={navLinks}>
-						<Link to="/contact" className={navLinkItem}>
+					<li className={navLinkItem}>
+						<Link to="/contact" className={navLinkText}>
 							Contact
 						</Link>
 					</li>

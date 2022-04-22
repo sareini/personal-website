@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { educationItemContainer } from './educationItem.module.css';
 
 type Degree = 'MS' | 'BS';
 
@@ -17,10 +18,10 @@ const EducationItem: React.FC<EducationItemProps>= (props: EducationItemProps) =
         : <p>{degreeType} {major}, {specialization + ' Specialization'}</p>;
 
     return (
-        <>
+        <div className={educationItemContainer}>
             {header}
             <p>{school}</p>
-        </>
+        </div>
     )
 }
 

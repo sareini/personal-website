@@ -1,21 +1,18 @@
 import * as React from 'react';
-import EducationItem from './educationItem';
+import { educations, EducationType } from '../content/education';
 
 const Education: React.FC = () => {
     return (
         <div>
             <h2>Education</h2>
-            <EducationItem
-                degreeType='MS'
-                school='Georgia Institute of Technology'
-                major='Computer Science'
-                specialization='Machine Learning'
-            />
-            <EducationItem
-                degreeType='BS'
-                school='University of Virginia'
-                major='Computer Science'
-            />
+            {educations.map((e: EducationType )=> {
+                return (
+                    <>
+                        <p>{e.degree}</p>
+                        <p>{e.school}</p>
+                    </>
+                )
+            })}
         </div>
     );
 }

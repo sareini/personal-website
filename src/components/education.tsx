@@ -7,9 +7,9 @@ const Education: React.FC = () => {
         <div>
             <h3>Education</h3>
             <div className={educationSection}>
-                {educations.map((e: EducationType )=> {
+                {educations.map((e: EducationType)=> {
                     return (
-                        <div className={educationItem}>
+                        <div key={e.school} className={educationItem}>
                             <p className={degree} >{e.degree}</p>
                             <p className={school}>{e.school}</p>
                         </div>

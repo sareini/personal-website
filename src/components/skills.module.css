@@ -3,4 +3,5 @@
     grid-template-columns: repeat(4, 1fr);
     padding-left: 1em;
     padding-right: 1em;
+    text-align: center;
   }

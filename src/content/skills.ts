@@ -30,6 +30,10 @@ export type SkillType = {
         type: Framework,
     },
     {
+        name: 'Node.js',
+        type: Framework,
+    },
+    {
         name: 'AWS',
         type: Cloud,
     },

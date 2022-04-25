@@ -1,0 +1,18 @@
+.school {
+    color: rgb(116, 111, 111);
+    margin: 0;
+}
+
+.degree {
+    color: black;
+    margin: 0;
+}
+
+.education-section {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.education-item {
+    margin-bottom: 1em;
+}

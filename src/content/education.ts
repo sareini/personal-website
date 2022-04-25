@@ -5,11 +5,11 @@ export type EducationType = {
 
 export const educations: EducationType[] = [
     {
-        degree: 'MS Computer Science, Machine Learning Specialization',
+        degree: 'MS, Computer Science, Machine Learning Specialization',
         school: 'Georgia Institute of Technology',
     },
     {
-        degree: 'BS Computer Science',
+        degree: 'BS, Computer Science',
         school: 'University of Virginia',
     }
 ]

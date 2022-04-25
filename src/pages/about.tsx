@@ -6,10 +6,10 @@ import Skills from '../components/skills';
 const AboutPage = () => {
 	return (
 		<Layout pageTitle='About Me'>
-			<>
+			<div>
 				<Education/>
 				<Skills/>
-			</>
+			</div>
 		</Layout>
 	)
 }

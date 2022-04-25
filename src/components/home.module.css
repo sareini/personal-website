@@ -1,0 +1,19 @@
+.github-image {
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.linkedin-image {
+    padding: 10px;
+    width: 115px;
+    height: 100px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}

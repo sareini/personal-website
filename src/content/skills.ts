@@ -10,10 +10,6 @@ export type SkillType = {
 
  export const skills: SkillType[] = [
     {
-        name: 'C#',
-        type: ProgrammingLangauge,
-    },
-    {
         name: 'TypeScript',
         type: ProgrammingLangauge,
     },
@@ -23,6 +19,10 @@ export type SkillType = {
     },
     {
         name: 'Python',
+        type: ProgrammingLangauge,
+    },
+    {
+        name: 'C#',
         type: ProgrammingLangauge,
     },
     {

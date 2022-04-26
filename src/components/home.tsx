@@ -1,13 +1,16 @@
 import * as React from 'react';
-import { githubImage, linkedinImage, contactSection } from './home.module.css';
+import { githubImage, linkedinImage, contactSection, homeContainer } from './home.module.css';
 import github from '../images/github.png';
 import linkedin from '../images/linkedin.png';
+import { aboutContainer } from './common.module.css';
 
 const Skills: React.FC = () => {
     return (
-		<div>
-			<p>My name is Muhammad Sareini and I am an engineer at Replit focusing on Data</p>
-			<div className={contactSection}>
+		<div className={homeContainer}>
+			<div className={`${aboutContainer}`}>
+				<p>My name is Muhammad Sareini and I am an engineer at Replit focusing on Data</p>
+			</div>
+			<div className={`${contactSection} ${aboutContainer}`}>
 				<a href='https://www.linkedin.com/in/muhammadhsareini' target='_blank'>
 					<img className={linkedinImage} src={linkedin} alt='linkedin'/>
 				</a>

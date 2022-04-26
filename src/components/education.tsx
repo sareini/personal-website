@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { educations, EducationType } from '../content/education';
 import { school, degree, educationItem } from './education.module.css';
-import { aboutContainer } from './common.module.css';
+import { aboutContainer, aboutHeadingText } from './common.module.css';
 
 const Education: React.FC = () => {
     return (
         <div>
-            <h3>Education</h3>
             <div className={aboutContainer}>
+                <h3 className={aboutHeadingText}>Education</h3>
                 {educations.map((e: EducationType)=> {
                     return (
                         <div key={e.school} className={educationItem}>

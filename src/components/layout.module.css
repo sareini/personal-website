@@ -1,11 +1,12 @@
 .container {
 	margin: auto;
-  	max-width: 500px;
+  	max-width: 600px;
 	font-family: sans-serif;
 }
 
 .heading {
 	color: darkslateblue;
+	text-align: center;
 }
 
 .nav-links {

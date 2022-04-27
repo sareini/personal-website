@@ -13,10 +13,17 @@
 	display: flex;
 	list-style: none;
 	padding-left: 0;
+	gap: 1em;
 }
 
 .nav-link-item {
-	padding-right: 2rem;
+	padding: .5rem;
+	background-color: rgb(250, 250, 248);
+	border-radius: 1em;
+}
+
+.nav-link-item:hover {
+	background-color: rgb(224, 224, 220);
 }
 
 .nav-link-text {

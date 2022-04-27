@@ -1,7 +1,6 @@
 import * as React from 'react';
-import { githubImage, linkedinImage, contactSection, homeContainer } from '../styles/home.module.css';
-import github from '../images/github.png';
-import linkedin from '../images/linkedin.png';
+import { contactSection, homeContainer } from '../styles/home.module.css';
+import { SocialIcon } from 'react-social-icons';
 import { aboutContainer } from '../styles/common.module.css';
 
 const Skills: React.FC = () => {
@@ -11,12 +10,8 @@ const Skills: React.FC = () => {
 				<p>My name is Muhammad Sareini and I am an engineer at Replit focusing on Data</p>
 			</div>
 			<div className={`${contactSection} ${aboutContainer}`}>
-				<a href='https://www.linkedin.com/in/muhammadhsareini' target='_blank'>
-					<img className={linkedinImage} src={linkedin} alt='linkedin'/>
-				</a>
-				<a href='https://github.com/sareini' target='_blank'>
-					<img className={githubImage} src={github} alt='github'/>
-				</a>
+				<SocialIcon url='https://www.linkedin.com/in/muhammadhsareini' target='_blank'/>
+				<SocialIcon url='https://github.com/sareini' target='_blank'/>
 			</div>
 		</div>
     )

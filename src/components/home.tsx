@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { githubImage, linkedinImage, contactSection, homeContainer } from './home.module.css';
+import { githubImage, linkedinImage, contactSection, homeContainer } from '../styles/home.module.css';
 import github from '../images/github.png';
 import linkedin from '../images/linkedin.png';
-import { aboutContainer } from './common.module.css';
+import { aboutContainer } from '../styles/common.module.css';
 
 const Skills: React.FC = () => {
     return (

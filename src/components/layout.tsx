@@ -6,7 +6,7 @@ import {
   navLinks,
   navLinkItem,
   navLinkText
-} from './layout.module.css';
+} from '../styles/layout.module.css';
 
 type LayoutProps = {
 	pageTitle: string;

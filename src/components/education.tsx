@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { educations, EducationType } from '../content/education';
-import { school, degree, educationItem } from './education.module.css';
-import { aboutContainer, aboutHeadingText } from './common.module.css';
+import { school, degree, educationItem } from '../styles/education.module.css';
+import { aboutContainer, aboutHeadingText } from '../styles/common.module.css';
 
 const Education: React.FC = () => {
     return (

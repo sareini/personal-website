@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { gridList } from './skills.module.css';
+import { gridList } from '../styles/skills.module.css';
 import { SkillType, skills } from '../content/skills';
-import { aboutContainer, aboutHeadingText } from './common.module.css';
+import { aboutContainer, aboutHeadingText } from '../styles/common.module.css';
 
 const Skills: React.FC = () => {
     return (
